@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訂閱mail</title>
+    <link rel="stylesheet" href="/css/linemail.css">
+
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+
+  
+    font-size: 8px;
+    min-width:375px;
+  
+}
+
+.mail_bg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.pop_bg{
+    position: relative;
+}
+
+.mail_bg{
+    display: flex;
+    justify-content: center;
+    
+}
+.content_box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    margin: 15%;
+
+   
+}
+
+.mail_input{
+    box-sizing: border-box;
+    margin: 5%;
+    width: 100%;
+    height:auto;
+    border-radius: 25px;
+    font-size: large;
+    padding: 8px 25px;
+    border: 1.5px #000000 solid;
+    outline-style: none;
+
+    max-width: 500px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="mail_bg">
+    
+        <div class="content_box">
+            <img src="/img/text推播手機.png" alt="" class="mail_text">
+            <input type="text"  placeholder="Enter your email here..."  class="mail_input">
+            <a href="">
+                <img src="/img/button.png" alt="" class="mail_text">
+            </a>
+
+        </div>
+        <img src="/img/bc.png" alt="" class="pop_bg">
+    </div>
+</body>
+</html>

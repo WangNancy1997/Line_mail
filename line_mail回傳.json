@@ -1,0 +1,33 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/5VMNYN2.jpeg",
+        "size": "full",
+        "aspectRatio": "30:30"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/m42a7Qw.jpeg",
+        "size": "full",
+        "aspectRatio": "30:30"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/m42a7Qw.jpeg",
+        "size": "full",
+        "aspectRatio": "30:30"
+      }
+    }
+  ]
+}

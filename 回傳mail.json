@@ -1,0 +1,15 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "hero": {
+      "type": "image",
+      "url": "https://i.imgur.com/ueOL6p0.jpeg",
+      "size": "full",
+      "aspectRatio": "80:80",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "http://linecorp.com/"
+      }
+    }
+  }
