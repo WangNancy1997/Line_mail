@@ -50,6 +50,7 @@ img{
     margin: 5%;
     width: 100%;
     height:auto;
+    
     border-radius: 25px;
     font-size: large;
     padding: 8px 25px;
@@ -57,4 +58,18 @@ img{
     outline-style: none;
 
     max-width: 500px;
+}
+
+.logo{
+    // display: flex;
+    // flex-direction:column;
+    // justify-content: center;
+    // align-items: center;
+    position: absolute;
+    z-index: 3;
+    width: 15%;
+    top: 5%;
+    right: 8%;
+
+
 }

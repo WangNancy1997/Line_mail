@@ -50,4 +50,12 @@ img {
   border: 1.5px #000000 solid;
   outline-style: none;
   max-width: 500px;
+}
+
+.logo {
+  position: absolute;
+  z-index: 3;
+  width: 15%;
+  top: 5%;
+  right: 8%;
 }/*# sourceMappingURL=linemail.css.map */
