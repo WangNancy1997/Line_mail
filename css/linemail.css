@@ -58,4 +58,10 @@ img {
   width: 15%;
   top: 5%;
   right: 8%;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
 }/*# sourceMappingURL=linemail.css.map */

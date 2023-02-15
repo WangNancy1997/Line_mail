@@ -14,13 +14,57 @@
         <img class="logo" src="https://github.com/WangNancy1997/Line_mail/blob/master/img/logo.png?raw=true" alt="">
         <div class="content_box">
             <img src="https://github.com/WangNancy1997/Line_mail/blob/master/img/text%E6%8E%A8%E6%92%AD%E6%89%8B%E6%A9%9F.png?raw=true" alt="" class="mail_text">
-            <input type="text"  placeholder="Enter your email here..."  class="mail_input">
-            <a href="">
-                <img src="https://github.com/WangNancy1997/Line_mail/blob/master/img/button.png?raw=true" alt="" class="mail_text">
-            </a>
+            <input type="mail"  placeholder="Enter your email here..."  class="mail_input" id="mail_input">
+            <button type="submit" href="" class="mailSubmit">
+              
+                <img  src="https://github.com/WangNancy1997/Line_mail/blob/master/img/button.png?raw=true" alt="" class="mail_text">
+            </button>
 
         </div>
         <img src="https://github.com/WangNancy1997/Line_mail/blob/master/img/bc.png?raw=true" alt="" class="pop_bg">
     </div>
+
+    <script>
+        // mail驗證
+        var mailSubmit=document.querySelector('.mailSubmit');
+
+
+        // 當按下送出會取值
+      function mailBtn(value){
+        var str ="";
+        // 取得input值
+        var mialInput=document.getElementById('mail_input').value;
+
+        str=mialInput;
+
+        // 未填寫狀態
+        if(str==''){
+            alert('請輸入電子信箱');
+            document.getElementById('mail_input').focus();
+            return false;
+        }
+        // 有填寫但內容錯誤狀態
+        else{
+            var mailRegxp=/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
+
+            if(mailRegxp.test(str)!=true){
+                alert('電子信箱格式錯誤');
+                document.getElementById('mail_input').focus();
+                document.getElementById('mail_input').select();
+                return false;
+            }
+            // 填寫成功狀態
+            else{
+                alert('填寫成功！！');
+            }
+        }
+        // alert(str);
+      }
+      mailSubmit.addEventListener('click',mailBtn);
+
+     
+
+
+    </script>
 </body>
 </html>
