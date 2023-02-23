@@ -4,6 +4,10 @@
   
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
 
     // background-color: rgb(154, 153, 223);
@@ -20,7 +24,7 @@ body{
     min-height:500px;
    height:100vh;
 
-   overflow-y: scroll;
+   overflow-y: auto;
 //    ????
 }
 
