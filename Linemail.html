@@ -94,6 +94,24 @@
         });
     </script>
 
+
+
+    <script>
+        $(window).on("deviceorientation resize", function( event ) {
+            if (window.matchMedia("(orientation: portrait)").matches) {
+                $('.mail_bg').css('display:none');
+                $('.pop_bg').html('<p>test</p>');
+            }
+            if (window.matchMedia("(orientation: landscape)").matches) {
+                $('.mail_bg').css('display:none');
+                $('.pop_bg').html('<p>test</p>');
+            }
+});
+
+    </script>
+
+
+
     
 </body>
 </html>
