@@ -93,9 +93,10 @@
       // 监听键盘的显示和隐藏事件
         window.addEventListener('focus', function() {
         // 获取文档的高度（不包括键盘高度）
-        var docHeight = window.innerHeight;
+        // var docHeight = window.innerHeight;
+        var docHeight = window.screen.height;
         // 获取窗口的可见高度（包括键盘高度）
-        var windowHeight = window.outerHeight;
+        var windowHeight = window.screen.outerHeight;
         // 计算键盘的高度
         var keyboardHeight = windowHeight - docHeight;
         // 如果键盘高度大于0，则说明键盘正在显示
