@@ -88,10 +88,37 @@
     </script> -->
 
     <script>
+        
+
+      // 监听键盘的显示和隐藏事件
         window.addEventListener('resize', function() {
-        var form = document.querySelector('.mail_bg');
-        form.style.height = window.innerHeight + 'px';
+        // 获取文档的高度（不包括键盘高度）
+        var docHeight = window.innerHeight;
+        // 获取窗口的可见高度（包括键盘高度）
+        var windowHeight = window.outerHeight;
+        // 计算键盘的高度
+        var keyboardHeight = windowHeight - docHeight;
+        // 如果键盘高度大于0，则说明键盘正在显示
+        if (keyboardHeight > 0) {
+            // 处理键盘显示的逻辑
+            
+            console.log('键盘高度为：' + keyboardHeight);
+
+        //     window.addEventListener('resize', function() {
+        // var form = document.querySelector('.mail_bg');
+        // form.style.height = keyboardHeight + 'px';
+        // });
+
+
+        } else {
+            // 处理键盘隐藏的逻辑
+            console.log('键盘已隐藏');
+        }
         });
+
+
+       
+
     </script>
 
 
