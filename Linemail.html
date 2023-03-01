@@ -88,10 +88,18 @@
     </script> -->
 
     <script>
-         window.addEventListener('focus', function() {
+        var inp = document.querySelector('.mail_input');
+
+        inp.addEventListener('focus', function() {
         var form = document.querySelector('.mail_bg');
         
         form.style.height ='calc(100vh + '+50+'%)';
+        });
+
+        inp.addEventListener('blur', function() {
+        var form = document.querySelector('.mail_bg');
+
+        form.style.height ='100vh';
         });
 
      
