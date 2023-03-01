@@ -104,10 +104,10 @@
             
             console.log('键盘高度为：' + keyboardHeight);
 
-        //     window.addEventListener('resize', function() {
-        // var form = document.querySelector('.mail_bg');
-        // form.style.height = keyboardHeight + 'px';
-        // });
+            window.addEventListener('resize', function() {
+        var form = document.querySelector('.mail_bg');
+        form.style.height =calc('100vh-'+keyboardHeight+'px');
+        });
 
 
         } else {
