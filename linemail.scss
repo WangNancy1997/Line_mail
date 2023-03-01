@@ -22,8 +22,8 @@ body{
     max-width: 700px;
     position: absolute;
     min-height:500px;
-//    height:100vh;
-   height:calc(100vh - 100px);
+   height:100vh;
+   height:calc(100vh + 50%);
   
 
    overflow-y: auto;

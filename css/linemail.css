@@ -16,11 +16,9 @@ body {
   max-width: 700px;
   position: absolute;
   min-height: 500px;
-  height: calc(100vh + 600px);
-  /* height: 100vh; */
+  height: 100vh;
+  height: calc(100vh + 50%);
   overflow-y: auto;
-  overflow-x: auto;
-  
   position: fixed;
   bottom: 0;
   left: 0;
