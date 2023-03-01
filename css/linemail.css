@@ -19,6 +19,8 @@ body {
   /* height: calc(100vh - 100px); */
   height: 100vh;
   overflow-y: auto;
+  overflow-x: auto;
+  
   position: fixed;
   bottom: 0;
   left: 0;
