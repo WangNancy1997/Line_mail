@@ -78,27 +78,20 @@
 
     </script>
 
-    <!-- <script>
-        function inputFocus(){
-            setTimeout(function(){
-                
-                window.scrollTo(0,document.body.clientHeight);
-            },500);
-        }
-    </script> -->
 
     <script>
+        // ｉinput
         var inp = document.querySelector('.mail_input');
 
+        // 偵測如果正在打字螢幕高往上推30％
         inp.addEventListener('focus', function() {
         var form = document.querySelector('.mail_bg');
-        
         form.style.height ='calc(100vh + '+30+'%)';
         });
 
+         // 偵測非打字狀態恢復100vh
         inp.addEventListener('blur', function() {
         var form = document.querySelector('.mail_bg');
-
         form.style.height ='100vh';
         });
 
