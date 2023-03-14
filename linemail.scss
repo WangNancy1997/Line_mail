@@ -114,3 +114,23 @@ margin-top: 10px;
 
 }
 
+.box_mg{
+    margin-left: 20px;
+    display: flex;
+    width:25%;
+    overflow-y: scroll;
+
+
+
+
+img{
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+}
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
