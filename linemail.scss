@@ -1,32 +1,32 @@
 *{
-    margin: 0;
-    padding: 0;
-  
+  margin: 0;
+  padding: 0;
+
 }
 
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body{
 
-    // background-color: rgb(154, 153, 223);
-    font-size: 8px;
+  // background-color: rgb(154, 153, 223);
+  font-size: 8px;
 
 
 }
 
 .mail_bg{
-    // width:100%;
-    min-width:375px;
-    max-width: 700px;
-    position: absolute;
-    min-height:500px;
-   height:100vh;
+  // width:100%;
+  min-width:375px;
+  max-width: 700px;
+  position: absolute;
+  min-height:500px;
+ height:100vh;
 //    height:calc(100vh + 50%);
-  
 
-   overflow-y: auto;
+
+ overflow-y: auto;
 
 
 position: fixed;
@@ -37,74 +37,74 @@ width: 100%;
 }
 
 img{
-    max-width:100%;
-    // height:auto;
+  max-width:100%;
+  // height:auto;
 
 }
 
 .pop_bg{
-    position: relative;
-    // height:100vh;
+  position: relative;
+  // height:100vh;
 
-  
+
 }
 
 .mail_bg{
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
+  
 }
 .content_box{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    width: 70%;
-    height: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  width: 70%;
+  height: 100%;
 
 
-   
+ 
 }
 
 .mail_input{
-    box-sizing: border-box;
-    margin: 5%;
-    width: 100%;
-    height:auto;
-    
-    border-radius: 25px;
-    font-size: large;
-    padding: 8px 25px;
-    border: 1.5px #000000 solid;
-    outline-style: none;
+  box-sizing: border-box;
+  margin: 5%;
+  width: 100%;
+  height:auto;
+  
+  border-radius: 25px;
+  font-size: large;
+  padding: 8px 25px;
+  border: 1.5px #000000 solid;
+  outline-style: none;
 
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .logo{
-    // display: flex;
-    // flex-direction:column;
-    // justify-content: center;
-    // align-items: center;
-    position: absolute;
-    z-index: 3;
-    width: 15%;
-    top: 5%;
-    right: 8%;
+  // display: flex;
+  // flex-direction:column;
+  // justify-content: center;
+  // align-items: center;
+  position: absolute;
+  z-index: 3;
+  width: 15%;
+  top: 5%;
+  right: 8%;
 
 
 }
 
 button {
-    outline: none;
-    border:none;
-    background-color: transparent;  
+  outline: none;
+  border:none;
+  background-color: transparent;  
 }
 
 a{
- text-decoration: none;   
+text-decoration: none;   
 }
 .linbot_discount{
 color: #E50012;
@@ -115,22 +115,22 @@ margin-top: 10px;
 }
 
 .box_mg{
-    margin-left: 20px;
-    display: flex;
-    width:100%;
-    overflow-y: scroll;
+  margin-left: 20px;
+  display: flex;
+  width:100%;
+  overflow-y: scroll;
 
 
 
 
 img{
-    margin-right: 20px;
-    width: 100%;
-    height: auto;
+  margin-right: 20px;
+  width: 100%;
+  height: auto;
 }
 }
 
 ::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 
